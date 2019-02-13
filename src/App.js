@@ -5,7 +5,7 @@ import {robots} from './robots';
 
 const App = () => {
   return (
-    <div>
+    <div className='tc'>
       <h1>RoboFriends</h1>
       <SearchBox />
       <CardList robots={robots} />  
